@@ -69,12 +69,6 @@ button {
   cursor: pointer;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #1e3a5f;
-  color: white;
-}
 
 /* Responsive */
 @media (max-width: 768px) {
