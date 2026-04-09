@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events - NIS</title>
+  <link rel="stylesheet" href="event.css" />
+  <link rel="stylesheet" href="home.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- header  -->
+  <header>
+    <div class="logo">
+      <img src="./images/logo.png" alt="" />
+      <a href="home.html">
+        <p style="cursor: pointer;">NEWTOWN INTERNATIONAL SCHOOL</p>
+      </a>
+    </div>
+
+    <div class="menu-icon">☰</div>
+
+    <div class="menu">
+      <ul>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="event.html">EVENT</a></li>
+        <li><a href="program.html">PROGRAM</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>School Events & Celebrations</h1>
+    <p>
+      We celebrate culture, learning, and community through exciting events
+      all year round.
+    </p>
+  </section>
+
+  <section class="events">
+    <h2>Featured Events</h2>
+
+    <div class="event-container">
+      <!-- Khmer New Year -->
+      <div class="event-card">
+        <h3>Khmer New Year</h3>
+        <p class="date">April 13 - 16</p>
+        <p>
+          Students celebrate Cambodian culture with traditional games, dances,
+          and food.
+        </p>
+      </div>
+
+      <!-- Christmas -->
+      <div class="event-card">
+        <h3>Christmas Day</h3>
+        <img src="./images/chrismas.jpeg" alt="">
+        <p class="date">December 25</p>
+        <p>
+          A joyful celebration with performances, decorations, and gift
+          sharing.
+        </p>
+      </div>
+
+      <!-- water fes  -->
+      <div class="event-card">
+        <h3>Water festival</h3>
+        <img src="./images/water-fes.jpeg" alt="">
+        <p class="date">Nov 23 - 25</p>
+        <p>
+          Bon Om Touk, is a spectacular three-day national holiday held in November
+        </p>
+      </div>
+    </div>
+
+    <div class="event-container">
+      <div class="event-card">
+        <h3>Sport day</h3>
+        <img src="./images/itf.jpeg" alt="">
+        <p class="date">Every Friday</p>
+        <p>
+          Taekwondo is a traditional Korean martial art and Olympic combat sport
+          recognized for its fast, high, and spinning kicks, often practiced by 70 million people worldwide.
+        </p>
+      </div>
+
+      <div class="event-card">
+        <h3>Parents meeting</h3>
+        <img src="./images/parent-meeting.jpeg" alt="">
+        <p class="date">Febuary 24</p>
+        <p>
+          Parent-teacher meetings (PTMs) are essential, typically 10-30 minute,
+          twice-yearly conferences designed to discuss a child's academic progress,
+          behavioral health, and social development.
+        </p>
+      </div>
+
+      <div class="event-card">
+        <h3>Students project</h3>
+        <img src="./images/student-project.jpeg" alt="">
+        <p class="date">Febuary 24</p>
+        <p>
+          A student project day is a dedicated, often school-wide event where
+          students showcase creativity, technical skills, or personal interests
+          through presentations, models, and exhibitions.
+        </p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+ <!-- footer  -->
+ <footer class="footer">
+  <div class="footer-flex">
+    <div class="footer-col">
+      <div class="footer-logo">NEWTOWN INTERNATIONAL SCHOOL</div>
+      <p>Inspiring students to learn, grow, and lead since 1999.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Links</h4>
+      <a href="home.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="event.html">Event</a>
+      <a href="program.html">Program</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>Peanichkam, Roka Thom, Chbarmon<br />Kampong Spue, Cambodia.</p>
+      <a href="https://t.me/Kuzxxa" style="margin-top: 10px">+(855) 1234567</a>
+      <a href="">nis@gmail.com</a>
+    </div>
+  </div>
+
+  <hr class="footer-divider" />
+
+  <div class="footer-bottom">
+    <span>© 2026 NIS. All rights reserved.</span>
+    <div class="footer-bottom-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Sitemap</a>
+    </div>
+  </div>
+</footer>
+
+  <script>
+    const menuIcon = document.querySelector(".menu-icon");
+    const menu = document.querySelector(".menu");
+
+    menuIcon.addEventListener("click", () => {
+      menu.classList.toggle("open");
+    });
+  </script>
+</body>
+
+</html>
