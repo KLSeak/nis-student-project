@@ -92,7 +92,7 @@ header {
 }
 
 /* Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
+/* @media (min-width: 768px) and (max-width: 1024px) {
   .menu ul {
     gap: 4px;
   }
@@ -108,16 +108,18 @@ header {
   .logo p {
     font-size: 13px;
   }
-}
+} */
 
 /* Mobile */
 @media (max-width: 767px) {
   header {
     padding-bottom: 0;
+    flex-wrap: wrap;
   }
 
   .logo {
     margin: 16px 20px;
+    flex: 1;
   }
 
   .menu-icon {
@@ -126,10 +128,12 @@ header {
   }
 
   .menu {
+    text-align: center;
     display: none;
     width: 100%;
     margin: 0;
-    background-color: #162e4d;
+    background-color: #1e3a5f;
+    top: 80px;
   }
 
   .menu.open {
