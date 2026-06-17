@@ -36,7 +36,6 @@ header {
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 0.05em;
- 
 }
 
 .logo a{
@@ -174,6 +173,9 @@ main{
     color: rgb(138, 138, 138);
     letter-spacing: 2px;
     margin-bottom: 20px;
+}
+a{
+  text-decoration: none;
 }
 .btn-abt{
     width: 140px;
